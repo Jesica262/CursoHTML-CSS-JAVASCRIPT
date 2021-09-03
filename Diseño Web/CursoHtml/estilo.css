@@ -1,0 +1,23 @@
+.titulo1 {
+    color: #2f3c42;
+}
+.titulo2{
+    color: #0a6893;
+}
+.titulo3 {
+    color: #000000;
+}
+[atributo="atributos"]
+{
+    color: #092fba;
+}
+.btn:hover {
+    color: #08c49e;
+}
+.form__input
+{
+    color: #0831c4;
+}
+.form__input--1{
+    color: #0f1b45;
+}
