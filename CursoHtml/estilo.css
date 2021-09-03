@@ -1,7 +1,7 @@
 * {
-    font-size: 2em;
-    font-family: sans-serif;
-    font-weight: 5;
+    font-family: tahoma, arial, helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
     color: #071134;
 }
 
@@ -28,4 +28,56 @@
 .form__input--1{
     color: #0f1b45;
 }
+/*
+h2 {
+    background-color: #1496dc;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 2em;
+    border: 4px inset blue;
+    box-shadow: 10px 0px 0px;
+    text-shadow: 20px 0px 0px 0;
+    transform: rotate(-45deg);
+}*/
+.cont {
+    margin: auto;
+    magin-top: 100px;
+    border: 4px solid red;
+    background: gray;
+    width: 500px;
+    padding: 20px;
 
+}
+
+.cont img {
+    float: left;
+    width: 300px;
+    margin-right: 15px;
+}
+
+p::selection{
+    color: #fff;
+    background-color: #000;
+}
+form{
+    margin: 100px auto;
+    display: block;
+
+    padding: 100px;
+    width: 50%;
+}
+input{
+    padding: 6px;
+    width: 100%;
+}
+
+
+/*Con position-relative conserva su espacio*/
+/*Con position-absolute el espacio no esta mas reservado, opacity 1 transparencia*/
+
+/*position: sticky;
+position: fixed;
+con el float- right pone la imagen ala derecha del texto*/
+/*overflow: auto- scroll- hidden sirve para agregar los datos a dentro del block
