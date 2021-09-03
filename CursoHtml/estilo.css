@@ -1,3 +1,10 @@
+* {
+    font-size: 2em;
+    font-family: sans-serif;
+    font-weight: 100;
+    color: #071134;
+}
+
 .titulo1 {
     color: #2f3c42;
 }
@@ -21,3 +28,4 @@
 .form__input--1{
     color: #0f1b45;
 }
+
